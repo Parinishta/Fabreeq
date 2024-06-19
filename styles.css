@@ -81,6 +81,7 @@ body {
 }
 
 .text-hover:hover {
+    font-family: 'GFS Didot';
     color: #1be15d;
     text-decoration: underline;
     transition: color 0.3s, text-decoration 0.3s;
@@ -95,6 +96,7 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
+    font-family: 'GFS Didot';
     color: #1be15d !important;
     background-color: #333 !important;
 }
