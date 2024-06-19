@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+    background-color: #121212;  /* Dark background */
+}
+
+.navbar {
+    background-color: #1c1c1c !important;
+    border-bottom: 1px solid #333;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #1be15d !important;
+}
+
+.navbar-nav .nav-link {
+    color: #ccc !important;
+    margin-right: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-nav .nav-link.active {
+    color: #1be15d !important;
+    font-weight: bold;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #1c1c1c;
+    border: 1px solid #333;
+}
+
+.navbar-nav .dropdown-item {
+    color: #ccc;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #333;
+    color: #1be15d;
+}
+
+.navbar-toggler {
+    border-color: #1be15d;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28187, 187, 187, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.form-control {
+    border-radius: 0;
+    border: 1px solid #333;
+    background-color: #1c1c1c;
+    color: #ccc;
+}
+
+.btn-outline-success {
+    border-color: #1be15d;
+    color: #1be15d;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-success:hover {
+    background-color: #1be15d;
+    color: #fff;
+}
+
+.container img {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.text-hover:hover {
+    color: #1be15d;
+    text-decoration: underline;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1be15d !important;
+    background-color: #333 !important;
+}
+
+.container {
+    text-align: left;
+}
+
+.dropdown-item:hover {
+    background-color: #1be15d !important;
+    color: #fff !important;
+}
+
+.card {
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 15px;
+}
+
